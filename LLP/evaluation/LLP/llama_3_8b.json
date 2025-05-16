@@ -1,0 +1,20 @@
+{
+  "model_path": "./Llama-3.1-8B/",
+  "prompt_path": "./model_storage/Llama-3.1-8B",
+
+  "prompt_tokens_per_layer": 1,
+
+  "lr": 5e-2,
+  "grad_steps": 64,
+  "weight_decay": 0.5,
+  "kl_factor": 0.1,
+  "edit_layer": 8,
+
+  "sample_num": 1000,
+  "key_grad_steps": 32,
+  "key_lr": 5e-3,
+  "temperature": 0.2,
+  "retrieval_layer": [0, 1, 2, 3, 4, 5, 7],
+
+  "device": 5
+}

@@ -1,0 +1,20 @@
+{
+  "model_path": "./Mistral-7B-v0.3",
+  "prompt_path": "./model_storage/Mistral-7B-v0.3",
+
+  "prompt_tokens_per_layer": 1,
+
+  "lr": 5e-2,
+  "grad_steps": 64,
+  "weight_decay": 0.1,
+  "kl_factor": 0.1,
+  "edit_layer": 10,
+
+  "sample_num": 1000,
+  "key_grad_steps": 32,
+  "key_lr": 5e-3,
+  "temperature": 0.2,
+  "retrieval_layer": [0, 1, 2, 3, 4, 5, 6, 7],
+
+  "device": 1
+}
